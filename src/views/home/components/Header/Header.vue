@@ -40,6 +40,7 @@ export default {
       width: 100%;
       background: white;
       display: flex;
+      z-index: 2;
     }
     .icon{
       width: 1rem;
@@ -58,6 +59,7 @@ export default {
       left: 8rem;
       top: .625rem;
       vertical-align: middle;
+      width: 60%;
     }
     .searchContent{
       width: 100%;
@@ -68,7 +70,7 @@ export default {
     }
     .iconSearchInput{
       background: #f2f2f2;
-      text-align: center;
+      text-align: right;
       border-radius: 3.125rem;
     }
     .iconSearch{

@@ -6,3 +6,7 @@ Vue.use(TabbarItem);
 
 import { Loading } from 'vant';
 Vue.use(Loading);
+
+import { Image as VanImage } from 'vant';
+
+Vue.use(VanImage);
